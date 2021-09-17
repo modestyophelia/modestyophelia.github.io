@@ -52,7 +52,7 @@
      color:rgb(69, 100, 139);
  }
 
- .button {
+ #button {
   background-color: Transparent;
   background-repeat:no-repeat;
   border: none;
