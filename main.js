@@ -6,7 +6,9 @@ function myFunction(){
 
 myFunction();
 
-console.log("hmmm");
+function handleClick(){
+    alert("You booped the snoot. Fox thanks you!");
+}
 
 document.getElementById("paragraph").innerHTML = "<p>I overwrote you</p>"
 document.getElementsByName("")

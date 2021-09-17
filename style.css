@@ -48,6 +48,19 @@
 
  .content, p {
      width: 620px;
-     height: 400px;
+     height: 300px;
      color:rgb(69, 100, 139);
  }
+
+ #button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color: transparent;
+  position: relative;
+  left: 690px;
+}
+
