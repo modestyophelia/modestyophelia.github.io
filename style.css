@@ -32,7 +32,7 @@
     width: 620px;
   }
 
-  .nav, a { /* the a element creates a hyperlink */
+  .nav, a, li { /* the a element creates a hyperlink */
     /* removes the list dots */
     list-style-type: none;
     /* color for the menu links */
@@ -40,7 +40,7 @@
     /* text go from left to right */
     text-align: left;
     /* creates space between the elements content (the menu links) */
-    padding: 14px 16px;
+    padding: 10px 13px;
     /* removes the lines under the links */
     text-decoration: none;
     /* font size on the menu links */
@@ -63,7 +63,7 @@
      color:rgb(69, 100, 139);
  }
 
- #button {
+ #btn {
   background-color: Transparent;
   background-repeat:no-repeat;
   border: none;
