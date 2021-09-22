@@ -7,13 +7,17 @@ function handleClick(){
     counter+= 1;
     document.getElementById("counter").innerHTML = counter;
 
-    if (counter < 3){
+    if (counter < 2){
 
         alert("You booped the snoot. Fox thanks you!");
     }
 
+    else if (counter < 3) {
+        alert("You booped the snoot. Fox really likes you!");
+    }
+
     else {
-        alert("Fox loves you!");
+        alert("You booped the snoot. Fox loves you!");
         document.getElementById("heart").style.visibility = "visible";
     } 
 }
@@ -24,14 +28,6 @@ function handleClick(){
 for(var i = 0; i<10; i++){ /* for-loop, index starts at 0 */
 
     console.log(i+1);
-}
-
-if (1+1 == 5){ /* if-conditions */ 
-
-    console.log("is 1+1 really 5 ?");
-}
-else {
-    console.log("whats 1+1 then ? ");
 }
 
 try { /* try catch, wrongID does not exist and cannot be replaced */ 

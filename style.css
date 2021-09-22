@@ -39,8 +39,8 @@
     color:rgb(104, 149, 207);
     /* text go from left to right */
     text-align: left;
-    /* creates space between the elements content (the menu links) */
-    padding: 10px 13px;
+    /* creates space between the menu links and increases height of the behind menu bar */
+    padding: 15px 13px;
     /* removes the lines under the links */
     text-decoration: none;
     /* font size on the menu links */
@@ -58,9 +58,11 @@
   }
 
  .content, p {
-     width: 620px;
+     width: 550px;
      height: 300px;
      color:rgb(69, 100, 139);
+     text-align: left;
+     padding: 15px 15px;
  }
 
  #btn {
