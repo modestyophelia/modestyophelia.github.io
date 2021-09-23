@@ -1,9 +1,17 @@
 
 .header {
+  /* text color specified */
     color:rgb(104, 149, 207);
+    /* font family specified */
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: 100px;
+    /* with the relative position the header will always */
     position: relative;
+    /* positioned down 100px from the top */
+    margin-top: 100px;
+    /* with the relative position the header will always stay 100px from the top,
+    regardless of screen resolution */
+    position: relative;
+    /* positioned 23px from left */
     left: 23px;
 }
 
@@ -12,12 +20,9 @@
     background: url(https://images.unsplash.com/photo-1603169812512-d6560fd13fa2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80) no-repeat center center fixed; 
     /* background covers the whole site */
     background-size: cover;
-    height: 100%;
+     /* width and height specified in order to preserve the images resolution */
     width: 100%;
-  }
-  body {
-    height: 100%;
-    width: 100%;
+    height: auto;
   }
 
   li {
@@ -32,14 +37,14 @@
     width: 620px;
   }
 
-  .nav, a, li { /* the a element creates a hyperlink */
+  .nav, a, li { 
     /* removes the list dots */
     list-style-type: none;
     /* color for the menu links */
     color:rgb(104, 149, 207);
     /* text go from left to right */
     text-align: left;
-    /* creates space between the menu links and increases height of the behind menu bar */
+    /* creates space between the menu links and increases height of the bar behind the menu */
     padding: 15px 13px;
     /* removes the lines under the links */
     text-decoration: none;
@@ -52,28 +57,30 @@
     color:rgb(69, 100, 139);
   }
 
-  .content {
-    height: 100%;
-    width: 100%;
-  }
-
  .content, p {
+  /* width and height specified */
      width: 550px;
      height: 300px;
+     /* text color specified */
      color:rgb(69, 100, 139);
+     /* text goes from left to right */
      text-align: left;
-     padding: 15px 15px;
+     /* space between content and border specified */
+     padding: 15px;
  }
 
  #btn {
+   /* makes the background color of the button transparent */
   background-color: Transparent;
-  background-repeat:no-repeat;
+  /* no border */
   border: none;
+   /* make the cursor into a pointer when hovering over the button */
   cursor:pointer;
-  overflow: hidden;
-  outline:none;
+   /* makes the button text transparent */
   color: transparent;
+   /* the position of the button is fixed, so that it stays in place even if the page is scrolled */
   position: fixed;
+   /* positioned on the fox's nose */
   left: 48%;
   top: 72%;
 }
