@@ -2,7 +2,6 @@
 <html>
 <head>
     <title>Ophelias Portfolio</title>
-    <!-- reads in the css-file -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,17 +12,14 @@
 </div>
 
 <div class="nav">
-    <!-- nav bar with a list of menu link options, when the user is at a specific page
-    that page options text becomes bold in the menu bar -->
     <li><a href="index.html"><strong>Home</strong></a></li>
     <li><a href="news.html">News</a></li>
     <li><a href="contact.html">Contact</a></li>
     <li><a href="about.html">About</a></li>
     <li>Times booped:<a id="counter">0</a><img src="./heart123.png" style="visibility: hidden" id="heart" /></li> 
-</div> <!-- the a-element has the id "counter" in order to be changed through js -->
-<!-- the image with the id "heart" is hidden for now, until it gets triggered through js  -->
+</div>
 
-<div class="content"> <!-- the info textbox -->
+<div class="content">
 <p>Hi! <br><br>Youre on the Home-page. <br>
 I'll write a bunch of things here, sometime, maybe.<br><br>
 You should try clicking the fox's snoot meanwhile<br><br>
@@ -34,12 +30,10 @@ Tota diceret nominati ius eu, error sonet simul his ut. Ignota impetus at mea, t
 Quot elitr te vis, mea no malis nihil.
 </p></div>
 
-<!-- the (for now) invisible button that is positioned on the fox's nose -->
 <button id="btn" onclick="handleClick()">Boop<br>Boop<br>Boop</button>
 
 </body>
 
 </html>
 
-<!-- reads in the js-file -->
 <script src='main.js'></script>
