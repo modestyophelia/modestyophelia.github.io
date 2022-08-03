@@ -60,9 +60,7 @@ small {
 }
 
 .intergalacticDatingGame, .didTrumpReallySayThatGame, .whatGameShouldYouTryOutNextQuiz {
-
   margin-left: 0.7%;
-
 }
 
 .intergalacticDatingGame {
@@ -89,11 +87,7 @@ small {
   border: none;
   color: white;
   padding: 1% 1%;
-  margin: 0.5%;
-  font-size: 80%;
-  border-radius: 7%;
-  margin-left: 90%;
-  margin-top: 2%;
+  margin-left: 92%;
 }
 
 #boopFoxBtn {
