@@ -1,6 +1,6 @@
 var counter = 0;
 
-function handleClick() {
+function boopFox() {
   counter += 1;
 
   document.getElementById("counter").innerHTML = counter;
