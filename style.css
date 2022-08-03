@@ -8,7 +8,7 @@ html {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.header {
+.header, .subtitle {
   color: rgb(69, 100, 139);
   position: relative;
   margin-top: 100px;
@@ -56,6 +56,31 @@ small {
 .links {
   display: flex;
   flex-direction: row;
+  justify-content: left;
+}
+
+.intergalacticDatingGame, .didTrumpReallySayThatGame, .whatGameShouldYouTryOutNextQuiz {
+
+  margin-left: 0.7%;
+
+}
+
+.intergalacticDatingGame {
+  display: flex;
+  flex-direction:column;
+  justify-content: left;
+  margin-top: 3%;
+}
+
+.didTrumpReallySayThatGame {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.whatGameShouldYouTryOutNextQuiz {
+  display: flex;
+  flex-direction:column;
   justify-content: left;
 }
 
