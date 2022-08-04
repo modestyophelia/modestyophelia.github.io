@@ -94,6 +94,10 @@ small {
 @media only screen and (max-width: 600px) {
 div.content{
   font-size: 20px;
+}
+div.home{
+  background: no-repeat;
+  background-color: rgba(244,248,251,255)
 }}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
