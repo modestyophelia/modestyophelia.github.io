@@ -50,6 +50,7 @@ small {
 
 .links {
   display: flex;
+  flex-direction: row;
   justify-content: left;
 }
 
