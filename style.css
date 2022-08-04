@@ -54,14 +54,7 @@ small {
   justify-content: left;
 }
 
-.projectPictures1 {
-  display: flex;
-  flex-direction:column;
-  margin-top: 3%;
-  margin-left: 25%;
-}
-
-.projectPictures2, .projectPictures3, .projectPictures4{
+.projectPictures1, .projectPictures2, .projectPictures3, .projectPictures4{
   display: flex;
   flex-direction:row;
   justify-content: center;
