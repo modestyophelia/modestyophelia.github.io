@@ -50,7 +50,7 @@ small {
 
 .links {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .projectPictures1, .projectPictures2, .projectPictures3, .projectPictures4{
