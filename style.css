@@ -1,6 +1,6 @@
 html {
-  min-height: 100vh;
-  min-width: 100vh;
+  height: 100%;
+  width: 100%;
 }
 
 .home {
@@ -137,6 +137,11 @@ small {
 
 /* iPads (portrait and landscape) ----------- */
 @media screen and (max-width : 1024px) {
+
+  .home {
+
+  }
+
   .content{
     font-size: 20px;
   }
