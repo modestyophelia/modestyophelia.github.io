@@ -111,6 +111,11 @@ small {
 }
 .links{
   font-size: 25px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 70px;
+  grid-template-rows: 50px 50px;
+  grid-template-columns: 200px 200px;
 }
 small{
   visibility: hidden;
