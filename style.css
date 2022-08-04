@@ -92,11 +92,11 @@ small {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-div.content{
+.content{
   font-size: 20px;
 }
 .home{
-  background: no-repeat;
+  background: none;
   background-color: rgba(244,248,251,255)
 }
 .small{
