@@ -96,7 +96,7 @@ small {
   top: 72%;
 }
 
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down) 
 @media only screen and (max-width: 600px) {
 .content{
   font-size: 20px;
@@ -119,12 +119,18 @@ small {
 }
 small{
   visibility: hidden;
-}}
+}}*/
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+
+
+
+  /* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
   .content{
-    font-size: 23px;
+    font-size: 20px;
   }
   .home{
     background: none;
@@ -134,7 +140,68 @@ small{
     width: 100%;
     text-align: left;
   }
+  .links{
+    font-size: 25px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 70px;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 200px 200px;
+  }
   small{
     visibility: hidden;
   }}
 
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
