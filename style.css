@@ -98,6 +98,9 @@ div.content{
 div.home{
   background: no-repeat;
   background-color: rgba(244,248,251,255)
+}
+.small{
+  display: none;
 }}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
