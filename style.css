@@ -97,8 +97,7 @@ small {
 }
 
   /* Smartphones (portrait and landscape) ----------- */
-@media only screen and
-(max-device-width : 480px) {
+@media screen and (max-width : 480px) {
 
   .content{
     font-size: 20px;
@@ -124,9 +123,7 @@ small {
   }}
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
+@media screen and (max-width : 1024px) {
   .content{
     font-size: 20px;
   }
@@ -142,9 +139,9 @@ and (max-device-width : 1024px) {
     font-size: 35px;
     display: grid;
     grid-auto-flow: column;
-    grid-gap: 90px;
+    grid-gap: 18%;
     grid-template-rows: 70px 70px;
-    grid-template-columns: 250px 250px;
+    grid-template-columns: 35% 35%;
   }
   small{
     visibility: hidden;
