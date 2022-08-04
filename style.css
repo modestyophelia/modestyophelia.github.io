@@ -109,6 +109,9 @@ small {
   width: 100%;
   text-align: left;
 }
+.links{
+  font-size: 25px;
+}
 small{
   visibility: hidden;
 }}
