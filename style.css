@@ -138,29 +138,3 @@ small{
     visibility: hidden;
   }}
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .content{
-    font-size: 25px;
-  }
-  .home{
-    background: none;
-    background-color: rgba(244,248,251,255)
-  }
-  .content{
-    width: 100%;
-    text-align: left;
-  }
-  small{
-    visibility: hidden;
-  }}
-
-/* Large devices (laptops/desktops, 992px and up) 
-@media only screen and (min-width: 992px) {
-
-} */
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
