@@ -96,34 +96,6 @@ small {
   top: 72%;
 }
 
-/* Extra small devices (phones, 600px and down) 
-@media only screen and (max-width: 600px) {
-.content{
-  font-size: 20px;
-}
-.home{
-  background: none;
-  background-color: rgba(244,248,251,255)
-}
-.content{
-  width: 100%;
-  text-align: left;
-}
-.links{
-  font-size: 25px;
-  display: grid;
-  grid-auto-flow: column;
-  grid-gap: 70px;
-  grid-template-rows: 50px 50px;
-  grid-template-columns: 200px 200px;
-}
-small{
-  visibility: hidden;
-}}*/
-
-
-
-
   /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
@@ -144,9 +116,9 @@ and (max-device-width : 480px) {
     font-size: 25px;
     display: grid;
     grid-auto-flow: column;
-    grid-gap: 70px;
-    grid-template-rows: 50px 50px;
-    grid-template-columns: 200px 200px;
+    grid-gap: 20%;
+    grid-template-rows: 10% 10%;
+    grid-template-columns: 30% 30%;
   }
   small{
     visibility: hidden;
