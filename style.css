@@ -95,7 +95,7 @@ small {
 div.content{
   font-size: 20px;
 }
-div.home{
+.home{
   background: no-repeat;
   background-color: rgba(244,248,251,255)
 }
