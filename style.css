@@ -69,6 +69,7 @@ small {
   justify-content: left;
   ;
   gap: 1%;
+  padding-bottom: 2%;
 }
 
 .links {
@@ -104,6 +105,7 @@ small {
   width: 50%;
   margin-left: 25%;
   margin-top: 2%;
+  padding-bottom: 2%;
 }
 
 .projectSubtitle,
