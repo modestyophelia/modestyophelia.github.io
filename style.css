@@ -4,31 +4,41 @@ html {
 }
 
 .home {
-  background: url(https://images.unsplash.com/photo-1603169812512-d6560fd13fa2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80)
-    no-repeat center center fixed;
+  background: url(https://images.unsplash.com/photo-1603169812512-d6560fd13fa2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80) no-repeat center center fixed;
   background-size: cover;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.projects, .resume {
-  background-color: rgba(244,248,251,255)
+.projects,
+.resume {
+  background-color: rgba(244, 248, 251, 255);
 }
 
-.header, .title, .subtitle {
+.header,
+.title,
+.subtitle {
   color: rgb(69, 100, 139);
   margin-top: 6%;
   margin-left: 0.5%;
 }
 
+.projectLanguagesTitle {
+  color: rgb(90, 131, 184);
+  text-align: left;
+  margin-left: 1%;
+  width: 44%;
+  margin-top: 5%;
+}
+
 a,
-.projectLanguages {
+.projectLanguagesSubtext {
   list-style-type: none;
   color: rgb(104, 149, 207);
   text-decoration: none;
   font-size: 17px;
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   justify-content: left;
   gap: 1%;
   margin-left: 1%;
@@ -56,7 +66,8 @@ small {
   margin-top: 5%;
   display: flex;
   flex-direction: row;
-  justify-content: left;;
+  justify-content: left;
+  ;
   gap: 1%;
 }
 
@@ -68,31 +79,35 @@ small {
   gap: 1.5%
 }
 
-.projectPictures1{
+.projectPictures1 {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   justify-content: center;
   margin-top: 3%;
 }
 
-.projectPictures2, .projectPictures3, .projectPictures4{
+.projectPictures2,
+.projectPictures3,
+.projectPictures4 {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   gap: 1%;
   justify-content: center;
   margin-top: 3%;
 }
 
-.projectContent{
+.projectContent {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(90, 131, 184);
   text-align: left;
-  font-size: large;
   width: 50%;
   margin-left: 25%;
   margin-top: 2%;
 }
 
-.projectSubtitle, .projectTitle {
+.projectSubtitle,
+.projectTitle {
   color: rgb(69, 100, 139);
   margin-top: 6%;
   display: flex;
@@ -119,21 +134,24 @@ small {
 }
 
 
-  /* Smartphones (portrait and landscape) ----------- */
+/* Smartphones (portrait and landscape) ----------- */
 @media screen and (max-width : 480px) {
 
-  .content{
+  .content {
     font-size: 20px;
   }
-  .home{
+
+  .home {
     background: none;
-    background-color: rgba(244,248,251,255)
+    background-color: rgba(244, 248, 251, 255)
   }
-  .content{
+
+  .content {
     width: 100%;
     text-align: left;
   }
-  .links{
+
+  .links {
     font-size: 25px;
     display: grid;
     grid-auto-flow: column;
@@ -141,47 +159,58 @@ small {
     grid-template-rows: 10% 10%;
     grid-template-columns: 30% 30%;
   }
-  small{
+
+  small {
     visibility: hidden;
   }
-  .projectPictures1{
+
+  .projectPictures1 {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     margin-top: 3%;
   }
+
   .projectContent {
     margin-left: 25%;
     margin: 10%;
     width: 100%;
     font-size: xx-large;
   }
+
   #closeBtn {
     size: 30%;
   }
-  #didTrumpActuallySayThatGame1, #didTrumpActuallySayThatGame3{
+
+  #didTrumpActuallySayThatGame1,
+  #didTrumpActuallySayThatGame3 {
     visibility: hidden;
   }
+
   #whatGameShouldYouTryOutNext1 {
     visibility: hidden;
-  }}
+  }
+}
 
 
 /* iPads (portrait and landscape) ----------- */
 @media screen and (max-width : 1024px) {
 
-  .content{
+  .content {
     font-size: 20px;
   }
-  .home{
+
+  .home {
     background: none;
-    background-color: rgba(244,248,251,255)
+    background-color: rgba(244, 248, 251, 255)
   }
-  .content{
+
+  .content {
     width: 100%;
     text-align: left;
   }
-  .links{
+
+  .links {
     font-size: 35px;
     display: grid;
     grid-auto-flow: column;
@@ -189,25 +218,31 @@ small {
     grid-template-rows: 70px 70px;
     grid-template-columns: 35% 35%;
   }
-  small{
+
+  small {
     visibility: hidden;
   }
-  .projectPictures1{
+
+  .projectPictures1 {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     margin-top: 3%;
   }
+
   .projectContent {
     margin: 10%;
     width: 80%;
-    font-size:xx-large;
+    font-size: xx-large;
     color: rgb(69, 100, 139);
   }
+
   #closeBtn {
     size: 30%;
   }
-  #didTrumpActuallySayThatGame1, #didTrumpActuallySayThatGame3{
+
+  #didTrumpActuallySayThatGame1,
+  #didTrumpActuallySayThatGame3 {
     visibility: hidden;
   }
 
