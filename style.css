@@ -165,13 +165,15 @@ small {
     text-align: left;
   }
 
-  .links {
-    font-size: 25px;
-    display: grid;
+  .btn1,
+  .btn2,
+  .btn3,
+  .btn4 {
+    font-size: 80%;
     grid-auto-flow: column;
-    grid-gap: 20%;
-    grid-template-rows: 10% 10%;
-    grid-template-columns: 30% 30%;
+    justify-content: center;
+    grid-gap: 2%;
+    width: 20%;
   }
 
   small {
@@ -204,6 +206,10 @@ small {
   #whatGameShouldYouTryOutNext1 {
     visibility: hidden;
   }
+
+  .projectLanguagesTitle {
+    width: 100%;
+  }
 }
 
 
@@ -224,13 +230,15 @@ small {
     text-align: left;
   }
 
-  .links {
-    font-size: 35px;
-    display: grid;
+  .btn1,
+  .btn2,
+  .btn3,
+  .btn4 {
+    font-size: 80%;
     grid-auto-flow: column;
-    grid-gap: 18%;
-    grid-template-rows: 70px 70px;
-    grid-template-columns: 35% 35%;
+    justify-content: center;
+    grid-gap: 2%;
+    width: 20%;
   }
 
   small {
@@ -270,6 +278,10 @@ small {
     justify-content: center;
     margin-top: 3%;
     margin-left: 6%;
+  }
+
+  .projectLanguagesTitle {
+    width: 100%;
   }
 
 }
