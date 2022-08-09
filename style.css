@@ -140,6 +140,7 @@ small {
 }
 
 #boopFoxBtn {
+  white-space: pre-wrap;
   background-color: Transparent;
   border: none;
   cursor: pointer;
