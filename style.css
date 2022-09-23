@@ -216,10 +216,6 @@ small {
     visibility: hidden;
   }
 
-  #whatGameShouldYouTryOutNext1 {
-    visibility: hidden;
-  }
-
   .projectLanguagesTitle {
     width: 100%;
   }
@@ -288,10 +284,6 @@ small {
 
   #didTrumpActuallySayThatGame1,
   #didTrumpActuallySayThatGame3 {
-    visibility: hidden;
-  }
-
-  #whatGameShouldYouTryOutNext1 {
     visibility: hidden;
   }
 
